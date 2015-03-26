@@ -1,0 +1,19 @@
+/* line 1, ../scss/front-page.scss */
+#front-page {
+  /*members*/
+}
+/* line 3, ../scss/front-page.scss */
+#front-page .members {
+  /*individual*/
+}
+/* line 5, ../scss/front-page.scss */
+#front-page .members .individual {
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+  border-radius: 100%;
+  margin: 1%;
+  display: inline-block;
+}
+
+/*front-page*/

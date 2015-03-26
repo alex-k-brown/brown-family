@@ -1,11 +1,12 @@
 <?php get_header(); ?>
 
-<div class="members"></div>
+  <div id="front-page">
 
-<div class="members"></div>
-
-<div class="members"></div>
-
-<div class="members"></div>
-
-<div class="members"></div>
+    <div class="members">
+      <div class="individual"></div>
+      <div class="individual"></div>
+      <div class="individual"></div>
+      <div class="individual"></div>
+      <div class="individual"></div>
+    </div><!--members-->
+  </div><!--members-->
