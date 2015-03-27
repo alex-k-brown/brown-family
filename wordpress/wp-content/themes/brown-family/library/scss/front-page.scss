@@ -1,17 +1,165 @@
+body {
+
+  background-image: url("../images/cape-flattery.jpg");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
 #front-page {
+
+  a:-webkit-any-link {
+
+    text-decoration: none;
+
+  }
+
+  .top-space {
+
+  }
 
   .members {
 
+//    background: #eaedf2;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    background-image: url("../images/usa.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    a:hover {
+
+      body {
+        
+        background-image: url("../images/mount-rainier.jpg");
+
+      }
+
+      .individual {
+
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        width: 200px;
+        height: 200px;
+
+      }
+
+      h2 {
+
+        visibility: visible;
+        text-decoration: none;
+
+      }
+
+      img {
+
+        visibility: visible;
+
+      }
+
+      h2:visited {
+
+        text-decoration: none;
+
+      }
+
+      h2:link {
+
+        text-decoration: none;
+
+      }
+
+    }
+
+    a:visited {
+
+      text-decoration: none;
+      color: transparent;
+
+    }
+
     .individual {
 
-      width: 100px;
-      height: 100px;
-      border: 2px solid blue;
+      width: 20px;
+      height: 20px;
       border-radius: 100%;
       margin: 1%;
+      box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+      vertical-align: top;
       display: inline-block;
 
+
+
     }/*individual*/
+
+    h2 {
+
+      margin: 100px auto 0 auto;
+      color: #eaedf2;
+      font-size: 200%;
+      text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+      visibility: hidden;
+      text-decoration: none;
+
+    }
+
+    img {
+
+      visibility: hidden;
+
+    }
+
+    #marc-anne {
+
+
+      background-image: url("https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash2/v/t1.0-9/225363_1044718651557_9791_n.jpg?oh=f7bdaa80358aecfd49477850fed765d1&oe=5577902A&__gda__=1433472211_496280ed94576a8e2413e92d2173912f");
+      background-size: cover;
+      background-position: center;
+      margin: 9% 0 0 -6%;
+
+    }
+
+    #alex-melanie {
+
+      background-image: url("https://scontent-sea.xx.fbcdn.net/hphotos-xfa1/t31.0-8/10604481_10152443376347444_8292905927790506149_o.jpg");
+      background-size: cover;
+      background-position: center;
+      margin: 20% 0 0 0;
+
+    }
+
+    #blake-rylee {
+
+      background-image: url("https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash2/v/t1.0-9/527055_10152144534401258_1895938164_n.jpg?oh=016066499f56d17cfe9a4b1c76ce0547&oe=55788508&__gda__=1433948615_0610a0db462470b0485d0c583a775602");
+      background-size: cover;
+      background-position: center;
+      margin: 20% 0 0 -40%;
+
+    }
+
+    #camille {
+
+      background-image: url("https://scontent-sea.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10171084_10203467983997074_4321144847622671318_n.jpg?oh=2d8bdc3add31fa32da9152f44548145b&oe=55AF44E4");
+      background-size: cover;
+      background-position: center;
+      margin: 9% 0 0 0;
+
+    }
+
+    #sydney {
+
+      background-image: url("https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10990014_10203986053866225_8294727688473259811_n.jpg?oh=abbbc03c2c3d45568ee6489f7d3b3a58&oe=5571B627&__gda__=1437986882_b4af0a88093e4a6536750e6a5046dbf3");
+      background-size: cover;
+      background-position: center;
+      margin: 19% 0 0 2%;
+
+    }
 
   }/*members*/
 
